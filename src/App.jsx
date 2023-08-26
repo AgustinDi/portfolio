@@ -5,6 +5,7 @@ import YearsOld from './cards/YearsOld'
 import GithubRedirect from './cards/GithubRedirect'
 import AboutMe from './cards/AboutMe'
 import LinkedinRedirect from './cards/LinkedinRedirect'
+import WorkingOn from './cards/WorkingOn'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <GithubRedirect />
       <AboutMe />
       <LinkedinRedirect />
+      <WorkingOn />
     </main>
   )
 }
