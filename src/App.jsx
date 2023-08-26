@@ -2,14 +2,16 @@ import './App.css'
 import MainTitle from './cards/MainTitleCard'
 import ColorSwitcher from './cards/ColorSwitcher'
 import YearsOld from './cards/YearsOld'
+import GithubRedirect from './cards/GithubRedirect'
 
 function App() {
 
   return (
     <main className='main-grid'>
       <ColorSwitcher />
-      <MainTitle />
       <YearsOld />
+      <MainTitle />
+      <GithubRedirect />
       <div>
         Mas data
       </div>
