@@ -1,4 +1,6 @@
 import './App.css'
+import './NoSignal.css'
+import noSignal from './nosignal.gif'
 import MainTitle from './cards/MainTitleCard'
 import ColorSwitcher from './cards/ColorSwitcher'
 import YearsOld from './cards/YearsOld'
@@ -14,19 +16,22 @@ import ContactMe from './cards/ContactMe'
 function App() {
 
   return (
-    <main className='main-grid'>
-      <ColorSwitcher />
-      <YearsOld />
-      <MainTitle />
-      <GithubRedirect />
-      <AboutMe />
-      <LinkedinRedirect />
-      <WorkingOn />
-      <Projects />
-      <Technologies />
-      <Curriculum />
-      <ContactMe />
-    </main>
+    <>
+      <div className='NoSignal' />
+      <main className='main-grid'>
+        <ColorSwitcher />
+        <YearsOld />
+        <MainTitle />
+        <GithubRedirect />
+        <AboutMe />
+        <LinkedinRedirect />
+        <WorkingOn />
+        <Projects />
+        <Technologies />
+        <Curriculum />
+        <ContactMe />
+      </main>
+    </>
   )
 }
 
