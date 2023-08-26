@@ -76,3 +76,9 @@
   grid-column: 7 / 9;
   grid-row: 5 / 6;
 }
+
+.Curriculum {
+  background-color: var(--color-Curriculum);
+  grid-column: 7 / 9;
+  grid-row: 6 / 7;
+}
