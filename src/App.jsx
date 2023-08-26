@@ -6,6 +6,7 @@ import GithubRedirect from './cards/GithubRedirect'
 import AboutMe from './cards/AboutMe'
 import LinkedinRedirect from './cards/LinkedinRedirect'
 import WorkingOn from './cards/WorkingOn'
+import Projects from './cards/Projects'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <AboutMe />
       <LinkedinRedirect />
       <WorkingOn />
+      <Projects />
     </main>
   )
 }

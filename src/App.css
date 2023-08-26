@@ -13,7 +13,7 @@
   margin-top: 80px;
 
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 150px 250px 270px 150px;
+  grid-template-rows: 150px 250px 270px 150px 300px 150px;
   gap: 16px
 }
 
@@ -63,4 +63,10 @@
   background-color: var(--color-WorkingOn);
   grid-column: 4 / 9;
   grid-row: 4 / 5;
+}
+
+.Projects {
+  background-color: var(--color-Projects);
+  grid-column: 1 / 7;
+  grid-row: 5 / 7;
 }
