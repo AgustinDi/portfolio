@@ -4,6 +4,32 @@
   text-align: center;
 }
 
+/* clickeable cards transition */
+
+.clickeable {
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.clickeable:hover {
+  cursor: pointer;
+  transform: scale(0.99);
+}
+
+.clickeable::after {
+  content: '';
+  background-image: url(redirect.png);
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+/* Grid layout */
+
 .main-grid {
   display: grid;
   max-width: 1050px;
