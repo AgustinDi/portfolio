@@ -13,7 +13,7 @@
   margin-top: 80px;
 
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 150px 250px 270px;
+  grid-template-rows: 150px 250px 270px 150px;
   gap: 10px
 }
 
@@ -51,4 +51,10 @@
   background-color: var(--color-AboutMe);
   grid-column: 5 / 9;
   grid-row: 3 / 4;
+}
+
+.LinkedinRedirect {
+  background-color: var(--color-LinkedinRedirect);
+  grid-column: 1 / 4;
+  grid-row: 4 / 5;
 }

@@ -4,6 +4,7 @@ import ColorSwitcher from './cards/ColorSwitcher'
 import YearsOld from './cards/YearsOld'
 import GithubRedirect from './cards/GithubRedirect'
 import AboutMe from './cards/AboutMe'
+import LinkedinRedirect from './cards/LinkedinRedirect'
 
 function App() {
 
@@ -14,33 +15,7 @@ function App() {
       <MainTitle />
       <GithubRedirect />
       <AboutMe />
-      <div>
-        Mas data
-      </div>
-      <div>
-        Hi guys this is my portfolio
-      </div>
-      <div>
-        texto generico
-      </div>
-      <div>
-        Hi guys this is my portfolio
-      </div>
-      <div>
-        texto generico
-      </div>
-      <div>
-        Mas data
-      </div>
-      <div>
-        Hi guys this is my portfolio
-      </div>
-      <div>
-        texto generico
-      </div>
-      <div>
-        Mas data
-      </div>
+      <LinkedinRedirect />
     </main>
   )
 }
