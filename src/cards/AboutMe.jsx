@@ -1,4 +1,4 @@
-import './Cards Styles/AboutMe'
+import './Cards Styles/AboutMe.css'
 
 export default function AboutMe() {
      return (

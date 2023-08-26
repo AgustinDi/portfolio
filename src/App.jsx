@@ -3,6 +3,7 @@ import MainTitle from './cards/MainTitleCard'
 import ColorSwitcher from './cards/ColorSwitcher'
 import YearsOld from './cards/YearsOld'
 import GithubRedirect from './cards/GithubRedirect'
+import AboutMe from './cards/AboutMe'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <YearsOld />
       <MainTitle />
       <GithubRedirect />
+      <AboutMe />
       <div>
         Mas data
       </div>
