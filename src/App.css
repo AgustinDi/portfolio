@@ -39,7 +39,7 @@
   margin-top: 80px;
 
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 150px 250px 270px 150px 300px 150px 300px;
+  grid-template-rows: 160px 240px 270px 150px 300px 150px 300px;
   gap: 16px
 }
 

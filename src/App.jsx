@@ -1,6 +1,5 @@
 import './App.css'
 import './NoSignal.css'
-import noSignal from './nosignal.gif'
 import MainTitle from './cards/MainTitleCard'
 import ColorSwitcher from './cards/ColorSwitcher'
 import YearsOld from './cards/YearsOld'
