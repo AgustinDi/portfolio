@@ -1,6 +1,7 @@
 import './App.css'
 import MainTitle from './cards/MainTitleCard'
 import ColorSwitcher from './cards/ColorSwitcher'
+import YearsOld from './cards/YearsOld'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <main className='main-grid'>
       <ColorSwitcher />
       <MainTitle />
+      <YearsOld />
       <div>
         Mas data
       </div>
