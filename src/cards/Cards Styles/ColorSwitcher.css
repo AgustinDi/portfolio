@@ -1,0 +1,9 @@
+.ColorSwitcher {
+     display: grid;
+     align-items: center;
+     justify-content: center;
+}
+
+.ColorSwitcher button {
+     border-color: white;
+}

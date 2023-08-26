@@ -1,15 +1,13 @@
 import './App.css'
+import MainTitle from './cards/MainTitleCard'
+import ColorSwitcher from './cards/ColorSwitcher'
 
 function App() {
 
   return (
     <main className='main-grid'>
-      <div className='xd'>
-        Hi guys this is my portfolio
-      </div>
-      <div className='title'>
-        MUCHA DATA.
-      </div>
+      <ColorSwitcher />
+      <MainTitle />
       <div>
         Mas data
       </div>
