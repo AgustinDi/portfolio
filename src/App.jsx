@@ -9,6 +9,7 @@ import WorkingOn from './cards/WorkingOn'
 import Projects from './cards/Projects'
 import Technologies from './cards/technologies'
 import Curriculum from './cards/Curriculum'
+import ContactMe from './cards/ContactMe'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Projects />
       <Technologies />
       <Curriculum />
+      <ContactMe />
     </main>
   )
 }
