@@ -70,3 +70,9 @@
   grid-column: 1 / 7;
   grid-row: 5 / 7;
 }
+
+.Technologies {
+  background-color: var(--color-Technologies);
+  grid-column: 7 / 9;
+  grid-row: 5 / 6;
+}

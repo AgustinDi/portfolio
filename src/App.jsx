@@ -7,6 +7,7 @@ import AboutMe from './cards/AboutMe'
 import LinkedinRedirect from './cards/LinkedinRedirect'
 import WorkingOn from './cards/WorkingOn'
 import Projects from './cards/Projects'
+import Technologies from './cards/technologies'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <LinkedinRedirect />
       <WorkingOn />
       <Projects />
+      <Technologies />
     </main>
   )
 }
