@@ -7,8 +7,8 @@ function App() {
       <div className='xd'>
         Hi guys this is my portfolio
       </div>
-      <div>
-        texto generico
+      <div className='title'>
+        MUCHA DATA.
       </div>
       <div>
         Mas data
