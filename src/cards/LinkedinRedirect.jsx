@@ -2,8 +2,6 @@ import './Cards Styles/LinkedinRedirect.css'
 
 export default function LinkedinRedirect() {
      return (
-          <div className='LinkedinRedirect clickeable'>
-               LinkedinRedirect
-          </div>
+          <a href='https://www.linkedin.com/in/agustin-digiacinto/' target='_Blank' className='LinkedinRedirect clickeable' rel="noreferrer"></a>
      )
 }
