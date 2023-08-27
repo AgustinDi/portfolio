@@ -1,1 +1,10 @@
-.GithubRedirect {}
+.GithubRedirect {
+     background-image: url('/src/github.gif');
+     background-size: cover;
+     background-position: top;
+
+     /* filtro de fondo= */
+     /* filter: brightness(60%); */
+     background-blend-mode: soft-light;
+     background-color: rgba(0, 0, 0, 0.5);
+}

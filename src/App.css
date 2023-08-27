@@ -7,7 +7,7 @@
 /* clickeable cards transition */
 
 .clickeable {
-  position: relative;
+  position: relative !important;
   transition: transform 0.2s ease;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .GithubRedirect {
-  background-color: var(--color-GithubRedirect);
+  /* ***tiene imagen*** */
   grid-column: 1 / 5;
   grid-row: 3 / 4;
 }
