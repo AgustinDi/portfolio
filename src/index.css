@@ -25,3 +25,8 @@
   --color-Curriculum: #77104E;
   --color-ContactMe: #0B5934;
 }
+
+a {
+  text-decoration: none;
+  color: inherit
+}
