@@ -3,7 +3,9 @@ import './Cards Styles/YearsOld.css'
 export default function YearsOld() {
      return (
           <div className='YearsOld'>
-               Edad 20 Años
+               <span>Edad</span>
+               <h4>20</h4>
+               <span>Años</span>
           </div>
      )
 }

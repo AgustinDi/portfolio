@@ -1,3 +1,17 @@
 .YearsOld {
      background-color: var(--color-YearsOld);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 20px;
+     padding-left: 25px;
+}
+
+.YearsOld span {
+     font-size: 26px;
+}
+
+.YearsOld h4 {
+     font-size: 70px;
+     margin-bottom: 10px;
 }
