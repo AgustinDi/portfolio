@@ -1,3 +1,29 @@
 .MainTitle {
-     color: red;
+     display: flex;
+     position: relative;
+     justify-content: end;
+}
+
+.MainTitle_Image {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     margin-left: -10%;
+     filter: drop-shadow(0 2px 5px rgba(46, 46, 46, 0.9))
+}
+
+.MainTitle_InfoContainer {
+     display: flex;
+     flex-direction: column;
+     align-items: end;
+     margin: 20px 30px 0px 0px;
+}
+
+.MainTitle_InfoContainer h1 {
+     font-size: 3rem;
+     width: max-content;
+}
+
+.MainTitle_InfoContainer h3 {
+     font-size: 24px;
 }
