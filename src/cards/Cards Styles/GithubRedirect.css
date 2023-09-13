@@ -7,4 +7,36 @@
      /* filter: brightness(60%); */
      background-blend-mode: soft-light;
      background-color: rgba(0, 0, 0, 0.5);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between
+}
+
+.GithubRedirect * {
+     display: inline;
+     margin: none;
+}
+
+.GithubRedirect_Icon {
+     /* position: absolute; */
+     width: 100px;
+     filter: invert(80%);
+     margin: 30px;
+}
+
+.GithubRedirect h3 {
+     font-size: 40px;
+}
+
+.GithubRedirect p {
+     font-size: larger;
+     font-weight: 500;
+}
+
+.GithubRedirect_TextZone {
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     margin-left: 30px;
+     margin-top: 20px;
 }
